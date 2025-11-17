@@ -2,7 +2,7 @@
 import React, { useState, useEffect, useReducer, useContext, createContext, useCallback, useMemo, useRef, Fragment } from 'react';
 import { allVillagers, speciesEmojiMap } from './data';
 import { Villager, AppState, Screen, Gender, Personality } from './types';
-import { AddIcon, AmiiboIcon, BanishIcon, CheckIcon, EditIcon, RemoveIcon, ResetIcon, SaveIcon, SettingsIcon, TrashIcon } from './components/Icons';
+import { AddIcon, AmiiboIcon, BanishIcon, CheckIcon, EditIcon, RemoveIcon, ResetIcon, SaveIcon, SettingsIcon, TrashIcon } from './components/Icons.tsx';
 
 // --- CONTEXT & REDUCER ---
 
